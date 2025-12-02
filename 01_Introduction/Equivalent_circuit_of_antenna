@@ -1,0 +1,30 @@
+# Communication Systems and Antennas – Introduction
+
+- Before discussing about the antenna, let us consider an example where there is a communication system and it wants to transfer data to other devices.  
+  The conduction of information in communication systems can either be done through:
+
+## COMMUNICATION SYSTEMS
+- **Transmission Lines**
+- **Electromagnetic Radiation**
+
+---
+
+## What are Transmission Lines?
+
+- In low-frequency circuits, we use ordinary wires for connections and usually don’t bother much about their effects.
+- But at high frequencies, the same wire cannot be used in the same way.
+
+  **Analogy:**  
+  If a 2-year-old tries to hit me, I can withstand the effect and it doesn’t bother me much. This is because of the difference in sizes between me and the child.  
+  But if another 20-year-old tries to hit me, that bothers me because my size and his size are comparable.
+
+- Likewise, in low-frequency systems:
+  - The wavelength of the waves travelling in the wire and the dimensions of the wire are **not comparable**.
+
+- But in the case of high frequency:
+  - The wavelength becomes **comparable to the wire dimensions**  
+  - Since \( \lambda = \frac{c}{f} \), as \( f \) increases, wavelength decreases.
+
+- This leads to a phenomenon known as the **skin effect**, where:
+  - The current in the wire is pushed towards the surface of the conductor.
+  - The current will not be able to efficiently trans
