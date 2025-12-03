@@ -1,4 +1,4 @@
-# Communication Systems and Antennas – Introduction
+# Equivalent Circuit of Antenna
 
 - Before discussing about the antenna, let us consider an example where there is a communication system and it wants to transfer data to other devices.  
   The conduction of information in communication systems can either be done through:
@@ -23,7 +23,8 @@
 
 - But in the case of high frequency:
   - The wavelength becomes **comparable to the wire dimensions**  
-  - Since \( \lambda = \frac{c}{f} \), as \( f \) increases, wavelength decreases.
+  - **λ = c / f** → As frequency (**f**) increases, wavelength (**λ**) decreases.
+
 
 - This leads to a phenomenon known as the **skin effect**, where:
   - The current in the wire is pushed towards the surface of the conductor.
@@ -38,11 +39,23 @@
 - Coming back to our discussion, apart from transmission lines (for conduction of information), **electromagnetic radiation** could also be used.
 - **Antennas are nothing but tools for creating such electromagnetic radiation.**
 - The main task for antenna designers is to control **how the currents should flow in the antenna** so that the **radiation shape (radiation pattern)** will be in the desired form.
+<p align="center">
+  <img src="skin-effect.jpg" width="400">
+  <br>
+  <em>Figure 1: Skin Effect in Conductors</em>
+</p>
+
 
 ---
 
 ## Antenna as a Transition Device
+<p align="center">
+  <img src="Screenshot 2025-12-02 162514.png" width="400">
+  <br>
+  <em>Figure 2: Antenna as a transition device</em>
+</p>
 
+-	The above figure depicts the equivalent circuit of an antenna. where the source is represented by an ideal generator, the transmission line is represented by a line with characteristic impedance Zc, and the antenna is represented by a load ZA [ZA =  (RL + Rr) + jXA] connected to the transmission line.
 - The antenna can be modeled as a **transition device**.
 - The current and voltage which pass through the wire are converted into **electromagnetic radiation**, and the antenna aids in this conversion.
 - Hence, while discussing antenna parameters, there will essentially be **two perspectives**:
@@ -52,6 +65,11 @@
 ---
 
 ## Equivalent Circuit of an Antenna
+<p align="center">
+  <img src="Screenshot 2025-12-02 203403.png" width="400">
+  <br>
+  <em>Figure 2: Antenna as a transition device</em>
+</p>
 
 - The equivalent circuit of an antenna consists of:
   - A **source** represented by an ideal generator.
